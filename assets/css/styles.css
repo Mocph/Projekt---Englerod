@@ -62,18 +62,6 @@ form.SearchBar button {
 } */
 
 
-#test12 {
-    float: left;
-    width: 20%;
-    text-align: center;
-    padding: 12px 0;
-    color: #FF8800;
-    opacity: 50%;
-    font-size: 36px;
-    border: none;
-}
-
-
 .tab {
     display: flex;
     justify-content: space-around;
@@ -84,8 +72,6 @@ form.SearchBar button {
     background-color: white;
 }
 
-
-
 #opretContainer {
     display: none;
 }
@@ -94,12 +80,10 @@ form.SearchBar button {
     margin-top: 60vh;
 }
 
-
 .ForsideH2 {
     font-size: 20px;
     width: 85vw;
 }
-
 
 .ForsideTekstCon {
     padding: 20px 0;
