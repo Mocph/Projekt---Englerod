@@ -27,6 +27,7 @@ header {
 
 #ForsideContainer {
     display: grid;
+    height: 812px;
     padding: 0; 
     margin: 0; 
     gap: 0; 
@@ -96,8 +97,7 @@ form.SearchBar button {
     background-size: cover;
     background-position: center;
     width: 100%;
-    position: relative;
-    height: 100%;
+  
    
 }
 
@@ -136,7 +136,9 @@ form.SearchBar button {
 #btnStart {
     border-style: none;
     padding: 10px;
-    width: 319px;
+    width: 90%;
+    margin: 0 auto; 
+    display: block; 
     background-color: #43885D;
     border-radius: 4px;
     height: 56px;
