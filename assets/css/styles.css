@@ -18,9 +18,23 @@ header {
     grid-area: header; 
 }
 
-.container {
-    display: grid;
+.Forsidesection {
+    grid-area: section-1
 }
+
+
+
+
+#ForsideContainer {
+    display: grid;
+    padding: 0; 
+    margin: 0; 
+    gap: 0; 
+    grid-template-areas: 
+    "section-1"
+}
+
+
 
 
 /* form.SearchBar {
@@ -94,7 +108,7 @@ form.SearchBar button {
 
 .Forsidesection {
     margin-top: 60vh;
-   grid-area: Indhold;
+   
     
 }
 
